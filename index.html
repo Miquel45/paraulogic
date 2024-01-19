@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>La paraula del dia</title>
+    <script src="Paraules.js"></script>
 </head>
 <body>
-<div class="title">Nom del joc</div>
-<div class="title"><input type="word" id="Analitza"></div>
+<div class="title"> paraula del dia</div>
+<div class="title">
+    <input type="word" id="Analitza"></div>
 <div class="respostes">
     <div class="resposta">
 
-        <div class="slot green">P</div>
-        <div class="slot">A</div>
-        <div class="slot yellow">R</div>
-        <div class="slot">A</div>
-        <div class="slot">U</div>
-        <div class="slot">L</div>
-        <div class="slot">A</div>
+        <div class="slot" id="lletra num1"></div>
+        <div class="slot" id="lletra num2"></div>
+        <div class="slot" id="lletra num3"></div>
+        <div class="slot" id="lletra num4"></div>
+        <div class="slot" id="lletra num5"></div>
+        <div class="slot" id="lletra num6"></div>
     </div>
 </div>
-<div class="panel-title">Pista</div>
+<button type="button"
+        onclick=enviar()>
+    enviar</button>
+<p id="text"></p>
+
+<div class="panel-title">Pista: paraula de sis lletres</div>
+
 </body>
 </html>
 
