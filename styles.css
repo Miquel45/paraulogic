@@ -64,9 +64,6 @@ input{
     background-color: rgba(255, 213, 2, 0.9);
 }
 
-.slot.gray {
-    background-color: rgba(105, 34, 34, 0.9);
-}
 .panel-title {
     text-align: center;
     padding: 10px;
